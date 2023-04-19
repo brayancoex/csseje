@@ -1,0 +1,94 @@
+h2{
+    font-size: large;
+}
+
+p{
+    color: red;
+}
+
+/*
+este va ser un selector de id
+*/
+
+#slec-id{
+    color: blueviolet;
+}
+
+/*
+este es un selector de clase
+*/
+.sele-class{
+    background-color: rosybrown;
+    color: aquamarine;
+}
+
+/*
+selectores avanzados
+selectores de hijos directos y descendientes
+*/
+
+.sele-hij-des>li{
+ background-color: gray;
+}
+
+/*
+selector de descendencia
+*/
+.sele-des b{
+    background-color: aquamarine;
+}
+
+/*
+selector de hermanos y sus adyacentes
+*/
+
+.hermanos ~ li{
+    background-color: red;
+}
+
+.her-adya + li{
+    color: rgb(107, 32, 160);
+}
+
+/*
+selectores de atributos
+*/
+
+.selector-atributo[target]{
+    background-color: grey;
+}
+
+.selector-atributo[target="_blank"]{
+    background-color: rgb(0, 255, 72);
+    font-size: 60px;
+}
+
+.selector-atributo[href*="filmelier"]{
+    background-color: rgb(255, 51, 0);
+    font-size: 25px;
+}
+
+.selector-atributo[href*="filmelier"]{
+    background-color: rgb(255, 51, 0);
+    font-size: 25px;
+}
+
+.selector-atributo[href^="https:/"]{
+    background-color: rgb(9, 255, 0);
+   
+}
+
+.selector-atributo[href$="polonia"]{
+    background-color: rgb(255, 234, 0);
+   
+}
+
+.selector-atributo b[class~="slec"]{
+    color: rgb(21, 255, 0);
+   
+}
+
+.selector-atributo b[class|="slec"]{
+    color: rgb(255, 0, 55);
+   
+}
