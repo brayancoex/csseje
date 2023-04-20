@@ -92,3 +92,40 @@ selectores de atributos
     color: rgb(255, 0, 55);
    
 }
+
+/*
+selector universal
+
+*/
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.selec-unir *{
+    background-color: firebrick;
+}
+/*
+pseudo-clases
+ejemplo general
+*/
+
+.pseu-clas-hove:hover{
+    color:cadetblue
+}
+
+/*
+pseudoclase de enlace
+*/
+.pseu-cla-enl:link{
+    color: red;
+}
+
+.pseu-cla-enl:visited{
+    color: red;
+}
+
+.clas-pseu-for:focus{
+   border-radius: 100%;
+}
