@@ -19,7 +19,36 @@ La Cascada es el mecanismo en que el navegador aplica los estilos. Y toma en cue
   2) La Especificidad del Selector
   3) Orden de Aparición
 */
-
-h1{
+/*
+agrupacion selectores
+*/
+h1,b,p{
     background-color: blueviolet;
+}
+/* Especificidad*/
+#primero{
+    background-color: bisque;
+}
+
+.segundo{
+    background-color: salmon;
+}
+
+/*
+herencia
+*/
+
+.heren>li p{
+  font-size: 35px;
+}
+/*
+manejo de cajas
+*/
+
+.box{
+    background-color: aqua;
+    padding: 10px;
+    border:solid blue;
+    border-radius: 10px;
+    margin: 15px;
 }
