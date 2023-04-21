@@ -1,0 +1,29 @@
+.cabe_conta{
+border: solid 4px red;
+height: 10vh;
+}
+
+.menu_conta{
+    border: solid 4px aquamarine;
+height: 5vh;
+}
+
+.cuer_conta{
+    height: calc(150vh - 15vh);
+    border: solid 4px;
+}
+
+.pie_conta{
+    height: 20vh;
+    border: solid 4px blue;
+}
+
+.cuer_conta_parra1{
+border: solid 4px blueviolet;
+overflow: scroll;
+margin-top: 12px;
+}
+.cuer_conta_parra2{
+border: solid 4px bisque;
+margin-top: 12px;
+}
