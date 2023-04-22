@@ -1,0 +1,78 @@
+.clas_nav{
+    
+}
+
+.clas_nav_cont{
+    min-height: 50%;
+    max-height: 120%;
+    border: solid 4px green;
+}
+
+.clas_nav_cont>a{
+    border: solid 2px red;
+    text-decoration: none;
+    /*
+    manejamos las tipografias
+    */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style:italic;
+    font-weight: bold;
+}
+/*
+se va trabajar con el cuerpo de doc
+*/
+.cuer_cont{
+    height: 130vh;
+    border: solid 4px rgb(30, 0, 128);
+    /*
+    aplicando al contenedor global flex y poder ubicar los cajones
+    */
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.cuer_cont_cont1,.cuer_cont_cont2,.cuer_cont_cont3,.cuer_cont_cont4{
+    flex-basis: 33.3%;
+    width: 50%;
+    border: solid 2px burlywood;
+    min-height: 20%;
+    max-height: 100%;
+}
+
+.cuer_cont_cont1 p{
+    color: goldenrod;
+    /*
+    aplico el objeto tipografico
+    */
+    letter-spacing: 2px;
+
+}
+.cuer_cont_cont2 p{
+    /*
+    espacio entre las palabras*/
+    word-spacing: 20px;
+    background-image: linear-gradient(red,green);
+}
+.cuer_cont_cont3{
+    /*
+    se establece un color por palabras claves
+    color: antiquewhite;
+    hexadecimal
+    color: #0011aa;
+    rgb()
+    color: rgb(194, 86, 0);
+background-color: hsl(105, 100%, 100%);
+
+imagen
+background-image: url(media/pexels-photo-842711.jpeg);
+estilo imagen
+    */
+
+    background-image: linear-gradient(red,green);
+   
+    
+    
+}
