@@ -76,3 +76,12 @@ estilo imagen
     
     
 }
+
+.cuer_cont_cont4>p{
+    /*se trabaja con las linas divisorias */
+    outline: 2px solid rgb(46, 46, 108);
+    /*propiedad cursor*/
+    cursor: crosshair;
+    /*sombreado a nuestro texto*/
+    text-shadow: 4px 4px 5px red;
+}

@@ -1,0 +1,105 @@
+.tabla{
+    /*
+    creando la tabla
+    */
+    display: table;
+    /*el ancho que va tener nuestra tabla*/
+    table-layout: fixed;
+    width: 100%;
+    /*
+    aplicando espaciado entre las celdas*/
+    border-spacing:4px;
+}
+
+.fila{
+    /*ubicamos la filas*/
+    display: table-row;
+    border-spacing:4px;
+}
+
+.celda {
+    /*le inscrustamos valores fijos*/
+    display: table-cell;
+    padding: 5px;
+    border: 1px solid black;
+    /*
+    se trabaja con la propiedad  opacity
+    */ 
+    opacity: 50%;
+
+    
+  }
+
+  .tabla_2{
+    border-collapse:collapse;
+    border-spacing: 0;
+    width: 100%;
+    /*
+    aplicando la propiedad visivility
+    visibility: hidden;
+    */
+    
+  }
+
+  .descripcion_2{
+    caption-side:top;
+  }
+
+td,th{
+    border: 1px solid black;
+}
+
+.flex_box{
+  /*para trabajar con flex box se debe crear inicalizar con la propiedad display: flex*/
+
+  display: flex;
+  outline: 1px solid rebeccapurple;
+  flex-direction:column;
+  height: 40vh;
+  width: 40vh;
+  flex-wrap: nowrap;
+  gap: 30px;
+  
+}
+
+.cajon{
+  outline: 1px solid;
+}
+
+.flex_box2{
+  display: flex;
+  outline: 1px solid rebeccapurple;
+  height: 50vh;
+  width: 25vh;
+  /*
+  aplicando el flex-wrap
+  */
+  flex-wrap:wrap;
+  /*
+  manejando espacios*/
+  gap: 3px;
+ /*
+ manejando el lineamiento de los cubos
+ */
+ justify-content:space-evenly;
+ /*
+ manejando el eje (cross axis)
+ */
+ align-items: center;
+ /*
+ manejando los espacios vacios
+ */
+ align-content: stretch;
+}
+
+.cajon2{
+  outline: 1px solid;
+   flex-basis: 33.3%;
+   flex-grow: 1;
+}
+
+.cajon3{
+  outline: 1px solid;
+  flex-basis: 40%;
+  flex-grow: 2;
+}
