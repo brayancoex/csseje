@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+.conta{
+    outline: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 25vh;
+}
+.item{
+    padding: 2px;
+    width: 25%;
+    outline: 2px solid rgb(0, 0, 255);
+
+}
+
+@media(min-width: 768px) and (max-width: 958px){
+    .conta{
+        height: 50vh;
+        outline: 2px solid rgb(47, 0, 255);
+    }
+}
